@@ -1,8 +1,9 @@
 import React from 'react'
+import { motion } from 'motion/react'
 
 const HeroSection = () => {
   return (
-    <div></div>
+    <div>Working</div>
   )
 }
 
