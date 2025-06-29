@@ -5,7 +5,7 @@ import ThreeDCard from '../Cards/ThreeDCard';
 const CardsSection: React.FC<{classname: string}> = ({classname}) => {
   return (
     <section className={`${classname} h-screen w-full flex flex-col`}>
-        <h1 className='text-7xl m-6'>
+        <h1 className='text-7xl m-6 font-mono font-bold'>
             <span>001 </span>
             <span>Cards Animation</span>
         </h1>
