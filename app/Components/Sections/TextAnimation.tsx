@@ -9,10 +9,10 @@ const TextAnimation = () => {
             <span>Text Animation</span>
         </h1>
         <div className='bg-red-300 flex-1 m-6 flex flex-col gap-12 justify-center items-start'>
-            <TextFlicker href='#'>Twitter</TextFlicker>
-            <TextFlicker href='#'>Facebook</TextFlicker>
-            <TextFlicker href='#'>Linkedin</TextFlicker>
-            <TextFlicker href='#'>Stegosauraus</TextFlicker>
+            <TextFlicker>Twitter</TextFlicker>
+            <TextFlicker>Facebook</TextFlicker>
+            <TextFlicker>Linkedin</TextFlicker>
+            <TextFlicker>Stegosauraus</TextFlicker>
         </div>
     </section>
   )

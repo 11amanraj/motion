@@ -1,27 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// export const RevealLinks = () => {
-//   return (
-//     <section className="grid place-content-center gap-2 bg-green-300 px-8 py-24 text-black">
-//       <FlipLink href="#">Twitter</FlipLink>
-//       <FlipLink href="#">Linkedin</FlipLink>
-//       <FlipLink href="#">Facebook</FlipLink>
-//       <FlipLink href="#">Instagram</FlipLink>
-//     </section>
-//   );
-// };
-
 const DURATION = 0.25;
 const STAGGER = 0.025;
 
-const TextFlicker = ({ children, href }: { children: string; href: string }) => {
+const TextFlicker = ({ children }: { children: string }) => {
   return (
-    <motion.a
+    <motion.div
       initial="initial"
       whileHover="hovered"
-      href={href}
-      className="relative block overflow-hidden whitespace-nowrap text-4xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl"
+      className="relative cursor-pointer block overflow-hidden whitespace-nowrap text-4xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl"
       style={{
         lineHeight: 0.75,
       }}
@@ -72,7 +60,7 @@ const TextFlicker = ({ children, href }: { children: string; href: string }) => 
           </motion.span>
         ))}
       </div>
-    </motion.a>
+    </motion.div>
   );
 };
 
