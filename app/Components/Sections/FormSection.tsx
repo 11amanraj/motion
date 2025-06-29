@@ -1,4 +1,5 @@
 import React from 'react'
+import FormStep from '../Form/FormStep'
 
 const FormSection = () => {
   return (
@@ -8,7 +9,10 @@ const FormSection = () => {
             <span>Form Animation</span>
         </h1>
         <div className='bg-red-300 flex-1 m-6 flex gap-12 justify-center items-center'>
-            Lorem Ipsum
+            <span>
+              Lorem Ipsum
+            </span>
+            <FormStep />
         </div>
     </section>
   )
