@@ -1,4 +1,5 @@
 import React from 'react'
+import TextFlicker from '../TextFlicker'
 
 const TextAnimation = () => {
   return (
@@ -7,8 +8,11 @@ const TextAnimation = () => {
             <span>003 </span>
             <span>Text Animation</span>
         </h1>
-        <div className='bg-red-300 flex-1 m-6 flex gap-12 justify-center items-center'>
-            Lorem Ipsum
+        <div className='bg-red-300 flex-1 m-6 flex flex-col gap-12 justify-center items-start'>
+            <TextFlicker href='#'>Twitter</TextFlicker>
+            <TextFlicker href='#'>Facebook</TextFlicker>
+            <TextFlicker href='#'>Linkedin</TextFlicker>
+            <TextFlicker href='#'>Stegosauraus</TextFlicker>
         </div>
     </section>
   )
