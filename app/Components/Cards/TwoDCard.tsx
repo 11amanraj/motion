@@ -1,39 +1,6 @@
 import React from 'react'
 import { motion } from 'motion/react'
 
-const Section1: React.FC<{classname: string}> = ({classname}) => {
-  return (
-    <section className={`${classname} h-screen w-full flex flex-col`}>
-        <h1 className='text-7xl m-6'>
-            <span>001 </span>
-            <span>Scroll Animation</span>
-        </h1>
-        <div className='bg-red-300 flex-1 m-6 flex gap-12 justify-center items-center'>
-            <TwoDCard />
-            <ThreeDCard />
-        </div>
-    </section>
-  )
-}
-
-const ThreeDCard = () => {
-    return (
-       <div 
-            style={{
-                transformStyle: "preserve-3d",
-            }}
-            className='relative h-96 w-80 overflow-hidden bg-indigo-500 rounded-xl cursor-pointer text-white p-8 flex flex-col justify-between'
-        >
-            <span className='z-1 relative'>Pro</span>
-            <span className='z-1 text-6xl font-bold origin-top-left'>
-                $299/Month
-            </span>
-            <span className='z-1 '>Lorem Ipsum dolor sit amet sonsecteutur adipisicing elit.</span>
-            <button className='z-1 w-full bg-white text-black font-black p-2 rounded-sm'>GET IT NOW</button>
-        </div> 
-    )
-}
-
 const TwoDCard = () => {
     return (
         <motion.div
@@ -108,4 +75,4 @@ const CardBackground = () => {
     )
 }
 
-export default Section1
+export default TwoDCard
