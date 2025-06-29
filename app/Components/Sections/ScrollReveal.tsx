@@ -3,7 +3,7 @@ import Loading from '../Loading'
 
 const ScrollReveal = () => {
   return (
-    <section className='bg-green-400 h-screen w-full flex flex-col'>
+    <section className='bg-green-400 min-h-screen w-full flex flex-col'>
         <h1 className='text-7xl m-6 font-mono font-bold'>
             <Loading>
                 <span>002 </span>

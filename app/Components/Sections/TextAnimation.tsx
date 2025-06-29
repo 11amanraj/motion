@@ -3,7 +3,7 @@ import TextFlicker from '../TextFlicker'
 
 const TextAnimation = () => {
   return (
-    <section className='bg-yellow-300 h-screen w-full flex flex-col'>
+    <section className='bg-yellow-300 min-h-screen w-full flex flex-col'>
         <h1 className='text-7xl m-6 font-mono font-bold'>
             <span>003 </span>
             <span>Text Animation</span>
