@@ -11,7 +11,7 @@ const FormStep = () => {
         }}
         initial='start'
         animate='finish'
-        transition={{ duration: 2, repeat: Infinity }}
+        transition={{ duration: 0.5, repeat: Infinity }}
     >
         <motion.div 
             className='w-12 h-12 border-2 rounded-full flex justify-center items-center'
@@ -21,7 +21,7 @@ const FormStep = () => {
             }}
             initial='start'
             animate='finish'
-            transition={{ duration: 2 }}
+            transition={{ duration: 0.5 }}
         >
             <span >1</span>
             <span className='hidden'>2</span>
